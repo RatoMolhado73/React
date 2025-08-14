@@ -35,4 +35,14 @@
   to {
     transform: rotate(-3600deg);
   }
+  
+}
+.button {
+  background-color: hotpink;
+  position: absolute;
+  top: 10%;
+  left: 10% ;
+  border-radius: 10px;
+  width: 200px;
+  height: 80px;
 }

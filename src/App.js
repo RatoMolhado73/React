@@ -5,6 +5,11 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <button className="button" onClick={() => window.location.href = 'https://ratomolhado73.github.io/portfolio/'}>
+          A
+        </button>
+
+
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -28,6 +33,9 @@ function App() {
       </header>
     </div>
   );
+
+
 }
+
 
 export default App;
